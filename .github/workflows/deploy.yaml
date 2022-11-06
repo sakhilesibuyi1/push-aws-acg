@@ -11,8 +11,8 @@ on:
 
 env:
   AWS_REGION: "us-east-1"
-  ECS_SERVICE: "myservice"
-  ECS_CLUSTER: "mycluster"
+  ECS_SERVICE: "servicename"
+  ECS_CLUSTER: "anothercluster"
   ECR_REPOSITORY: "new"
   TASK_DEFINITION: "random-task"
   CONTAINER_NAME: "nginx"
