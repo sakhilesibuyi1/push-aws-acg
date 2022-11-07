@@ -14,5 +14,5 @@ RUN \
 
 # Run the command on container startup:
 # - Run non-daemonized cron in background
-# - Output the log result from example-cron.cronjob
-ENTRYPOINT [ "cron -f &" ] && tail -f /var/log/cron.log
+# - Output the log result from hello.cronjob
+CMD (cron -f &) tail -f /var/log/cron.log
