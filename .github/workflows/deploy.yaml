@@ -11,7 +11,7 @@ on:
 
 env:
   AWS_REGION: "us-east-1"
-  ECS_SERVICE: "main-example"
+  ECS_SERVICE: "man-example"
   ECS_CLUSTER: "example-cluster"
   ECR_REPOSITORY: "crons-repo"
   TASK_DEFINITION: "random-task"
